@@ -73,6 +73,25 @@ The complete list of variables of each feature vector is available below:
 =================
 
 
+Variable Levels	
+  activity	
+  1	WALKING
+  2	WALKING_UPSTAIRS
+  3	WALKING_DOWNSTAIRS
+  4	SITTING
+  5	STANDING
+  6	LAYING
+	
+activity_factor	
+  1	WALKING
+  2	WALKING_UPSTAIRS
+  3	WALKING_DOWNSTAIRS
+  4	SITTING
+  5	STANDING
+  6	LAYING
+
+
+
 | Var                                    | Var Type    | Min. | 1st Qu.   | Median    | Mean      | 3rd Qu.  | Max. | Original Var Name               |
 |----------------------------------------|-------------|------|-----------|-----------|-----------|----------|------|---------------------------------|
 | subject                                | Categorical | 1    | 9         | 17        | 16.15     | 24       | 30   | NA                              |
@@ -647,20 +666,6 @@ The complete list of variables of each feature vector is available below:
 | angle_Z_gravityMean__Ind561                 | Numeric            | -1   | -0.1319   | -0.003882 | -0.05428  | 0.103     | 1    | angle(Z,gravityMean)                 |
 | activity_factor                             | Factor             | NA   | NA        | NA        | NA        | NA        | NA   | NA                                   |
 
-|                                             |                    |      |           |           |           |           |      |                                      |
-| Variable Levels                             |                    |      |           |           |           |           |      |                                      |
-| activity                                    |                    |      |           |           |           |           |      |                                      |
-| 1                                           | WALKING            |      |           |           |           |           |      |                                      |
-| 2                                           | WALKING_UPSTAIRS   |      |           |           |           |           |      |                                      |
-| 3                                           | WALKING_DOWNSTAIRS |      |           |           |           |           |      |                                      |
-| 4                                           | SITTING            |      |           |           |           |           |      |                                      |
-| 5                                           | STANDING           |      |           |           |           |           |      |                                      |
-| 6                                           | LAYING             |      |           |           |           |           |      |                                      |
-|                                             |                    |      |           |           |           |           |      |                                      |
-| activity_factor                             |                    |      |           |           |           |           |      |                                      |
-| 1                                           | WALKING            |      |           |           |           |           |      |                                      |
-| 2                                           | WALKING_UPSTAIRS   |      |           |           |           |           |      |                                      |
-| 3                                           | WALKING_DOWNSTAIRS |      |           |           |           |           |      |                                      |
-| 4                                           | SITTING            |      |           |           |           |           |      |                                      |
-| 5                                           | STANDING           |      |           |           |           |           |      |                                      |
-| 6                                           | LAYING             |      |           |           |           |           |      |                                      |
+
+
+
